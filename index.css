@@ -1,0 +1,750 @@
+.star {
+    font-size: 25px;
+}
+
+@media screen and (min-width: 700px) {
+    .Navigation1 {
+        color: #070707;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .Navigation {
+        color: #828282;
+        text-decoration: none;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .threePolosky {
+        display: none;
+    }
+
+    .nav {
+        width: 940px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px 20px;
+    }
+
+    .main {
+        width: 1445px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 20px 20px;
+    }
+
+    .nameHome {
+        width: 123.51px;
+        height: 118.17px;
+        font-size: 47.34px;
+        color: #070707;
+    }
+
+    .textHome1 {
+        display: flex;
+        align-items: end;
+        height: 118px;
+        padding-bottom: -32px;
+    }
+
+    .textHome {
+        size: 17px;
+        width: 155.65px;
+        height: 44.06px;
+
+    }
+
+    #Home {
+        border-top: 1px solid #828282;
+        width: 940px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px 20px;
+        margin-bottom: 0;
+    }
+
+    .foto {
+        width: 940px;
+        height: 387px;
+        margin-top: 20px;
+        margin-bottom: 90px;
+    }
+
+    .img1 {
+        width: 940px;
+        height: 387px;
+        position: absolute;
+        object-fit: cover;
+    }
+
+    #AboutMe {
+        background-color: #F6F6F6;
+        width: 1445px;
+        height: 506px;
+        display: flex;
+    }
+
+    .divTextAboutMe {
+        width: 1500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .textAboutMe {
+        text-align: center;
+        color: #070707;
+        width: 485px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .title {
+        color: #070707;
+        size: 34px;
+        text-align: center;
+        line-height: 42.09px;
+    }
+
+    .AboutMe {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+    }
+
+    #AboutMe2 {
+        background-color: #F6F6F6;
+        width: 1445px;
+        height: 506px;
+        display: none;
+    }
+
+    .divTextAboutMe2 {
+        width: 1500px;
+        display: none;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .textAboutMe2 {
+        text-align: center;
+        color: #070707;
+        width: 485px;
+        display: none;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .title2 {
+        color: #070707;
+        size: 34px;
+        text-align: center;
+        line-height: 42.09px;
+    }
+
+    .AboutMe2 {
+        display: none;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+    }
+
+
+    #Skills {
+        width: 1445px;
+        height: 506px;
+        display: flex;
+    }
+
+    .arreaApplication {
+        width: 166px;
+        height: 206px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .titleSkills {
+        width: 1500px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .textSkills {
+        width: 1500px;
+        display: flex;
+        justify-content: center;
+        line-height: 21.83px;
+    }
+
+    .applicationImg {
+        width: 89px;
+        height: 88px;
+    }
+
+    .conteinerApplication {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .mainArreaApplication {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .nameApplication {
+        width: 70px;
+        height: 27px;
+        text-align: center;
+        color: #828282;
+        font-size: 14px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .divNameApplication {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #Portfolio {
+        width: 1445px;
+        height: 2200px;
+        background-color: #F6F6F6;
+        display: flex;
+        justify-content: center;
+        padding-top: 80px;
+    }
+
+    .card1 {
+        width: 940px;
+        height: 512px;
+    }
+
+    .card2 {
+        width: 940px;
+        height: 524px;
+    }
+
+    .conteiner {
+        display: flex;
+        justify-content: center;
+    }
+
+    .conteinerStars {
+        width: 120px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+    }
+
+    .mainConteinerStars {
+        display: flex;
+        justify-content: center;
+    }
+
+    .portfolioImg {
+        width: 940px;
+        height: 512px;
+        margin-top: 50px;
+    }
+
+    .textPortfolio {
+        text-decoration: underline;
+        text-align: center;
+        margin-bottom: 75px;
+        margin-top: 45px;
+    }
+
+    #Contacts {
+        width: 1445px;
+        display: flex;
+        justify-content: center;
+        padding-top: 80px;
+    }
+
+    .textContacts1 {
+        Width: 275.14px;
+        Height: 44.06px;
+        text-align: center;
+        font-size: 18px;
+        color: #070707;
+        margin-top: 20px;
+    }
+
+    .divButtonContacts {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .buttonContacts {
+        width: 180.5px;
+        background-color: #070707;
+        color: white;
+        height: 42px;
+        border-radius: 55px;
+        text-align: center;
+    }
+
+    .textContacts2 {
+        margin-top: 20px;
+        text-align: center;
+        color: #828282;
+    }
+
+    .pin {
+        width: 10px;
+        height: 10px;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .pin1 {
+        width: 25px;
+        height: 25px;
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .pins {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .span {
+        margin-top: -15px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .Navigation1 {
+        display: none;
+    }
+
+    .Navigation {
+        display: none;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .main {
+        width: 375px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 20px 20px;
+    }
+
+    .nameHome {
+        width: 200px;
+        height: 106px;
+        font-size: 47.34px;
+        color: #070707;
+    }
+
+    .textHome1 {
+        display: flex;
+        align-items: end;
+        /* height: 118px; */
+    }
+
+    .textHome {
+        size: 18px;
+        width: 155.65px;
+        height: 44.06px;
+        margin-top: 20px;
+    }
+
+    #Home {
+        border-top: none;
+        width: 316px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 20px;
+        margin-bottom: 0;
+    }
+
+    .conteinerHome {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .foto {
+        width: 375px;
+        margin-top: 20px;
+        margin-bottom: 90px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img1 {
+        width: 316px;
+        height: 478px;
+        object-fit: cover;
+    }
+
+    #AboutMe {
+        background-color: #F6F6F6;
+        width: 1445px;
+        height: 506px;
+        display: none;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    p {
+        width: 316px;
+        font-size: 18px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .divTextAboutMe {
+        width: 1500px;
+        display: none;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .textAboutMe {
+        text-align: center;
+        color: #070707;
+        width: 485px;
+        display: none;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .title {
+        color: #070707;
+        size: 34px;
+        text-align: center;
+        line-height: 42.09px;
+    }
+
+    .AboutMe {
+        width: 316px;
+        display: none;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+    }
+
+
+    #Skills {
+        width: 375px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #skills {
+        background-color: #F6F6F6;
+        width: 1445px;
+        height: 506px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .arreaApplication {
+        width: 166px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .titleSkills {
+        width: 375px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .textSkills {
+        width: 375px;
+        display: flex;
+        justify-content: center;
+        line-height: 21.83px;
+    }
+
+    .applicationImg {
+        width: 89px;
+        height: 88px;
+    }
+
+    .conteinerApplication {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .mainArreaApplication {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .nameApplication {
+        width: 70px;
+        height: 27px;
+        text-align: center;
+        color: #828282;
+        font-size: 14px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .divNameApplication {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #Portfolio {
+        width: 375px;
+        height: 1118px;
+        background-color: #F6F6F6;
+        display: flex;
+        justify-content: center;
+        padding-top: 80px;
+    }
+
+    .card1 {
+        width: 940px;
+        height: 512px;
+    }
+
+    .card2 {
+        width: 940px;
+        height: 524px;
+    }
+
+    .conteiner {
+        display: flex;
+        justify-content: center;
+    }
+
+    .conteinerStars {
+        width: 120px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+    }
+
+    .mainConteinerStars {
+        display: flex;
+        justify-content: center;
+    }
+
+    .portfolioImg {
+        width: 316px;
+        height: 171px;
+        margin-top: 50px;
+    }
+
+    .textPortfolio {
+        text-decoration: underline;
+        text-align: center;
+        margin-bottom: 75px;
+        margin-top: 45px;
+    }
+
+    #Contacts {
+        width: 375px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 80px;
+    }
+
+    .contacts {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .textContacts1 {
+        Width: 265.14px;
+        Height: 44.06px;
+        text-align: center;
+        font-size: 18px;
+        color: #070707;
+        margin-top: 20px;
+    }
+
+    .divButtonContacts {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .buttonContacts {
+        width: 274px;
+        background-color: #070707;
+        color: white;
+        height: 42px;
+        border-radius: 55px;
+        text-align: center;
+    }
+
+    .textContacts2 {
+        width: 315px;
+        margin-top: 20px;
+        text-align: center;
+        color: #828282;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .pin {
+        width: 10px;
+        height: 10px;
+
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .pin1 {
+        width: 25px;
+        height: 25px;
+
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .pins {
+        width: 280px;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .Pins {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #AboutMe2 {
+        background-color: #F6F6F6;
+        width: 375px;
+        height: 506px;
+        display: flex;
+    }
+
+    .divTextAboutMe2 {
+        width: 375px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .textAboutMe2 {
+        text-align: center;
+        color: #070707;
+        width: 375px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .title2 {
+        color: #070707;
+        size: 34px;
+        text-align: center;
+        line-height: 42.09px;
+    }
+
+    .AboutMe2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+    }
+
+    .Navigat {
+        color: #ffffff;
+        font-size: 34px;
+        text-decoration: none;
+        margin-top: 20px;
+    }
+
+    .navigation {
+        width: 280px;
+        display: none;
+        padding: 20px;
+        margin-top: 25px;
+        background-color: #8282826d;
+        margin-bottom: 20px;
+    }
+
+    .list {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .list li {
+        margin-bottom: 10px;
+    }
+
+    .Nav:checked+.poloski {
+        background-color: transparent;
+    }
+
+    .Nav:checked+.poloski+.navigation {
+        display: block;
+    }
+
+    .Nav {
+        display: none;
+    }
+
+    .poloski {
+        width: 300px;
+        height: 29px;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 27px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+.Nav:checked~.nameHome {
+    display: none;
+}
+
+.Nav:checked~.poloski~.textHome1 {
+    display: none;
+}
+
+}
